@@ -1,0 +1,146 @@
+{
+    "report": {
+        "id": 37,
+        "name": "Assembly Calendar Target",
+        "description": "F000 target for the current calendar day",
+        "type": "target",
+        "active": 1,
+        "created_at": null,
+        "updated_at": null
+    },
+    "structures": [
+                   {
+                   "id": 159,
+                   "report_id": 37,
+                   "name": "F000",
+                   "type": "status",
+                   "level": 0,
+                   "value": "F000",
+                   "order": 0,
+                   "created_at": null,
+                   "updated_at": null
+                   },
+                   {
+                   "id": 160,
+                   "report_id": 37,
+                   "name": "firstShift",
+                   "type": "shift",
+                   "level": 1,
+                   "value": "firstShift",
+                   "order": 0,
+                   "created_at": null,
+                   "updated_at": null
+                   },
+                   {
+                   "id": 161,
+                   "report_id": 37,
+                   "name": "secondShift",
+                   "type": "shift",
+                   "level": 1,
+                   "value": "secondShift",
+                   "order": 1,
+                   "created_at": null,
+                   "updated_at": null
+                   },
+                   {
+                   "id": 162,
+                   "report_id": 37,
+                   "name": "thirdShift",
+                   "type": "shift",
+                   "level": 1,
+                   "value": "thirdShift",
+                   "order": 2,
+                   "created_at": null,
+                   "updated_at": null
+                   },
+                   {
+                   "id": 163,
+                   "report_id": 37,
+                   "name": "Nov 27",
+                   "type": "date",
+                   "level": 1,
+                   "value": "0",
+                   "order": 3,
+                   "created_at": null,
+                   "updated_at": null
+                   }
+                   ],
+    "report_data": {
+        "F000": {
+            "firstShift": {
+                "ist": 101,
+                "soll": 109,
+                "delta": -8
+            },
+            "secondShift": {
+                "ist": 0,
+                "soll": 0,
+                "delta": 0
+            },
+            "thirdShift": {
+                "ist": 0,
+                "soll": 0,
+                "delta": 0
+            },
+            "Nov 27": {
+                "ist": 101,
+                "soll": 109,
+                "delta": -8
+            }
+        }
+    },
+    "report_data_v2": {
+        "F000": {
+            "firstShift": {
+                "ist": [
+                        101
+                        ],
+                "soll": [
+                         109
+                         ],
+                "delta": [
+                          -8
+                          ]
+            },
+            "secondShift": {
+                "ist": [
+                        0
+                        ],
+                "soll": [
+                         0
+                         ],
+                "delta": [
+                          0
+                          ]
+            },
+            "thirdShift": {
+                "ist": [
+                        0
+                        ],
+                "soll": [
+                         0
+                         ],
+                "delta": [
+                          0
+                          ]
+            },
+            "Nov 27": {
+                "ist": [
+                        101
+                        ],
+                "soll": [
+                         109
+                         ],
+                "delta": [
+                          -8
+                          ]
+            }
+        }
+    },
+    "last_update_timezone": {
+        "date": "2017-11-27 09:24:32.000000",
+        "timezone_type": 3,
+        "timezone": "America/Mexico_City"
+    },
+    "last_update": "2017-11-27 09:24:32"
+}

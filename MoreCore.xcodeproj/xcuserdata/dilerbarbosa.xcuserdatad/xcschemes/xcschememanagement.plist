@@ -7,7 +7,20 @@
 		<key>MoreCore.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
-			<integer>0</integer>
+			<integer>6</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>3F3732AA1FB25A22002C3C22</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>3F3732BE1FB25A23002C3C22</key>
+		<dict>
+			<key>primary</key>
+			<true/>
 		</dict>
 	</dict>
 </dict>

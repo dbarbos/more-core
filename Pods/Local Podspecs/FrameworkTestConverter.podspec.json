@@ -1,0 +1,22 @@
+{
+  "name": "FrameworkTestConverter",
+  "version": "0.1.0",
+  "summary": "Its a test pod",
+  "description": "This is a pod test",
+  "homepage": "http://cappriola.net",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Dilermando Barbosa Jr": "dilermando.barbosa@gmail.com"
+  },
+  "platforms": {
+    "ios": "9.3"
+  },
+  "source": {
+    "git": "https://github.com/dbarbos/frameworktestconverter.git",
+    "tag": "0.1.0"
+  },
+  "source_files": "FrameworkTestConverter/**/*.{swift}"
+}
